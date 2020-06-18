@@ -1,0 +1,5 @@
+def multiply_string(message, n):
+    """This will get a message and print it four times!"""
+    return message*n
+
+print(multiply_string("Python!", 4))
