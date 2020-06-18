@@ -1,0 +1,20 @@
+def multiply_string(message, n):
+    """This will get a message and print it several times!"""
+
+    return message*n
+
+print(multiply_string("Ayah", 3))
+
+print(multiply_string("Ayah", 8))
+
+
+def multiply_string(message, n):
+    result = ""
+
+    for i in range(n):
+        result += message
+        return result
+
+print(multiply_string("Ayah", 3))
+
+print(multiply_string("Ayah", 8))
